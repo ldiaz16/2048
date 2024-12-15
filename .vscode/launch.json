@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug 2048",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/2048",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "preLaunchTask": "build",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for lldb",
+                    "text": "settings set target.print-object-description true",
+                    "ignoreFailures": false
+                }
+            ]
+        }
+    ]
+}
